@@ -1,8 +1,10 @@
 package simulation
 
 import (
+	// standard library imports
 	"fmt"
 
+	 // ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/types/kv"
 	clientsim "github.com/cosmos/ibc-go/modules/core/02-client/simulation"
 	connectionsim "github.com/cosmos/ibc-go/modules/core/03-connection/simulation"

@@ -1,9 +1,11 @@
 package types
 
 import (
+	// standard library imports
 	"fmt"
 	"sort"
 
+	// ibc-go library imports
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"
 	"github.com/cosmos/ibc-go/modules/core/exported"

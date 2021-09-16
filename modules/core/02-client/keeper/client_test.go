@@ -1,12 +1,15 @@
 package keeper_test
 
 import (
+	// standard library imports
 	"encoding/hex"
 	"fmt"
 	"time"
 
+	// external library imports
 	tmtypes "github.com/tendermint/tendermint/types"
 
+	// ibc-go library imports
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"

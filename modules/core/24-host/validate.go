@@ -1,9 +1,11 @@
 package host
 
 import (
+	// standard library imports
 	"regexp"
 	"strings"
 
+	// ibc-go library imports
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 

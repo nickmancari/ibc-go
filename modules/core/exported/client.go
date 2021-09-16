@@ -1,10 +1,13 @@
 package exported
 
 import (
+	// external library imports
 	ics23 "github.com/confio/ics23/go"
+	proto "github.com/gogo/protobuf/proto"
+
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	proto "github.com/gogo/protobuf/proto"
 )
 
 // Status represents the status of a client

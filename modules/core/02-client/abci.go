@@ -1,6 +1,7 @@
 package client
 
 import (
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/ibc-go/modules/core/02-client/keeper"
 	"github.com/cosmos/ibc-go/modules/core/exported"

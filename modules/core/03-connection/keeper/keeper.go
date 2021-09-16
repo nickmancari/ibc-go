@@ -1,8 +1,10 @@
 package keeper
 
 import (
+	// standard library imports
 	"github.com/tendermint/tendermint/libs/log"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

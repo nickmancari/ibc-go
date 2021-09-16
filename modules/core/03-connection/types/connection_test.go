@@ -1,10 +1,13 @@
 package types_test
 
 import (
+	// standard library imports
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 
+	// ibc-go library imports
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	"github.com/cosmos/ibc-go/modules/core/03-connection/types"
 	commitmenttypes "github.com/cosmos/ibc-go/modules/core/23-commitment/types"

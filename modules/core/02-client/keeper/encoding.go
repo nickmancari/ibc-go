@@ -1,6 +1,7 @@
 package keeper
 
 import (
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 	"github.com/cosmos/ibc-go/modules/core/exported"
 )

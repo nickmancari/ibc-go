@@ -1,9 +1,11 @@
 package connection
 
 import (
+	// standard library imports
 	"github.com/gogo/protobuf/grpc"
 	"github.com/spf13/cobra"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/03-connection/client/cli"
 	"github.com/cosmos/ibc-go/modules/core/03-connection/types"
 )

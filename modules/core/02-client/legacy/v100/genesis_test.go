@@ -1,14 +1,15 @@
 package v100_test
 
 import (
+	// standard library imports
 	"bytes"
 	"encoding/json"
 	"time"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-
 	ibcclient "github.com/cosmos/ibc-go/modules/core/02-client"
 	v100 "github.com/cosmos/ibc-go/modules/core/02-client/legacy/v100"
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"

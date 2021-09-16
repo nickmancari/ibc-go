@@ -1,6 +1,7 @@
 package keeper
 
 import (
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"

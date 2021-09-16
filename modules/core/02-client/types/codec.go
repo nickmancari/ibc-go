@@ -1,8 +1,10 @@
 package types
 
 import (
+	// external library imports
 	proto "github.com/gogo/protobuf/proto"
 
+	// ibc-go library imports
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

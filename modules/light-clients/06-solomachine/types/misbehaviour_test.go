@@ -1,6 +1,7 @@
 package types_test
 
 import (
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/exported"
 	"github.com/cosmos/ibc-go/modules/light-clients/06-solomachine/types"
 	ibctesting "github.com/cosmos/ibc-go/testing"

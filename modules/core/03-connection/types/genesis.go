@@ -1,8 +1,10 @@
 package types
 
 import (
+	// standard library imports
 	"fmt"
 
+	// ibc-go library imports
 	host "github.com/cosmos/ibc-go/modules/core/24-host"
 )
 

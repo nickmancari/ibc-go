@@ -1,6 +1,7 @@
 package types
 
 import (
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/ibc-go/modules/core/exported"
 )

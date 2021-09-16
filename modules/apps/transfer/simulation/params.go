@@ -1,11 +1,14 @@
 package simulation
 
 import (
+	// standard library imports
 	"fmt"
 	"math/rand"
 
+	// external library imports
 	gogotypes "github.com/gogo/protobuf/types"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

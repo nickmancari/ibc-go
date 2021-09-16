@@ -1,6 +1,7 @@
 package types
 
 import (
+	// external library imports
 	tmmath "github.com/tendermint/tendermint/libs/math"
 	"github.com/tendermint/tendermint/light"
 )

@@ -1,17 +1,19 @@
 package ibc
 
 import (
+	// standard library imports
 	"context"
 	"encoding/json"
 	"fmt"
 	"math/rand"
 
+	// external library imports
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
-
 	abci "github.com/tendermint/tendermint/abci/types"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"

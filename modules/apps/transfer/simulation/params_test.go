@@ -1,11 +1,14 @@
 package simulation_test
 
 import (
+	// standard library imports
 	"math/rand"
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/apps/transfer/simulation"
 )
 

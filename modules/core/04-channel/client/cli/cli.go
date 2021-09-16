@@ -1,8 +1,10 @@
 package cli
 
 import (
+	// external library imports
 	"github.com/spf13/cobra"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/ibc-go/modules/core/04-channel/types"
 )

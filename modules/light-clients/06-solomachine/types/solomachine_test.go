@@ -1,11 +1,14 @@
 package types_test
 
 import (
+	// standard library imports
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
+	// ibc-go library imports
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"

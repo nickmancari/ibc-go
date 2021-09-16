@@ -1,8 +1,10 @@
 package types
 
 import (
+	// standard library imports
 	"bytes"
 
+	// ibc-go library imports
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"

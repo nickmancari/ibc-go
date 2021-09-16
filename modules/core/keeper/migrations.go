@@ -1,8 +1,10 @@
 package keeper
 
 import (
+	// standard library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
+	// ibc-go library imports
 	clientkeeper "github.com/cosmos/ibc-go/modules/core/02-client/keeper"
 )
 

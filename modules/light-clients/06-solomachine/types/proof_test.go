@@ -1,6 +1,7 @@
 package types_test
 
 import (
+	// ibc-go library imports
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 	"github.com/cosmos/ibc-go/modules/light-clients/06-solomachine/types"

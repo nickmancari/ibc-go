@@ -1,8 +1,10 @@
 package types
 
 import (
+	// standard library imports
 	"fmt"
 
+	// ibc-go library imports
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"

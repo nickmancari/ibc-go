@@ -1,10 +1,12 @@
 package types
 
 import (
+	// standard library imports
 	"bytes"
 	"encoding/binary"
 	"strings"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"

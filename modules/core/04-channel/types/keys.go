@@ -1,9 +1,11 @@
 package types
 
 import (
+	// standard library imports
 	"fmt"
 	"regexp"
 
+	// ibc-go library imports
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"
 )

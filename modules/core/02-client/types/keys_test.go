@@ -1,11 +1,14 @@
 package types_test
 
 import (
+	// standard library imports
 	"math"
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 )
 

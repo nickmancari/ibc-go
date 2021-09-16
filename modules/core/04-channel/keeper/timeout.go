@@ -1,9 +1,11 @@
 package keeper
 
 import (
+	// standard library imports
 	"bytes"
 	"fmt"
 
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"

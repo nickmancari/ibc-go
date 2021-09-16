@@ -1,9 +1,11 @@
 package types
 
 import (
+	// external library imports
 	ics23 "github.com/confio/ics23/go"
 	crypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
+	// ibc-go library imports
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 

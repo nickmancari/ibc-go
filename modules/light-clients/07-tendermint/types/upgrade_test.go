@@ -1,8 +1,8 @@
 package types_test
 
 import (
+	// ibc-go library imports
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	commitmenttypes "github.com/cosmos/ibc-go/modules/core/23-commitment/types"
 	"github.com/cosmos/ibc-go/modules/core/exported"

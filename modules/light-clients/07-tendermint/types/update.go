@@ -1,13 +1,16 @@
 package types
 
 import (
+	// standard library imports
 	"bytes"
 	"reflect"
 	"time"
 
+	// external library imports
 	"github.com/tendermint/tendermint/light"
 	tmtypes "github.com/tendermint/tendermint/types"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

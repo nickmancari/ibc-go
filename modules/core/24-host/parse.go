@@ -1,9 +1,11 @@
 package host
 
 import (
+	// standard library imports
 	"strconv"
 	"strings"
 
+	// ibc-go library imports
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 

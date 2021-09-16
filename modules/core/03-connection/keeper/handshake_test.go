@@ -1,8 +1,10 @@
 package keeper_test
 
 import (
+	// standard library imports
 	"time"
 
+	// ibc-go library imports
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	"github.com/cosmos/ibc-go/modules/core/03-connection/types"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"

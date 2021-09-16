@@ -1,11 +1,13 @@
 package simulation
 
 import (
+	// standard library imports
 	"encoding/json"
 	"fmt"
 	"math/rand"
 	"strings"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/ibc-go/modules/apps/transfer/types"

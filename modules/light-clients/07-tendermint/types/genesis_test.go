@@ -1,6 +1,7 @@
 package types_test
 
 import (
+	// standard library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"

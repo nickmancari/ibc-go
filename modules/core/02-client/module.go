@@ -1,9 +1,11 @@
 package client
 
 import (
+	// external library imports
 	"github.com/gogo/protobuf/grpc"
 	"github.com/spf13/cobra"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/02-client/client/cli"
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 )

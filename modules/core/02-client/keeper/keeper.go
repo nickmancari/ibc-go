@@ -1,13 +1,16 @@
 package keeper
 
 import (
+	// standard library imports
 	"fmt"
 	"reflect"
 	"strings"
 
+	// external library imports
 	"github.com/tendermint/tendermint/libs/log"
 	"github.com/tendermint/tendermint/light"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"

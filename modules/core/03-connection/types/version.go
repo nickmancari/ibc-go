@@ -1,8 +1,10 @@
 package types
 
 import (
+	// standard library imports
 	"strings"
 
+	// ibc-go library imports
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/ibc-go/modules/core/exported"
 )

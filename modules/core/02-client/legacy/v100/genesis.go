@@ -1,12 +1,15 @@
 package v100
 
 import (
+	// standard library imports
 	"bytes"
 	"time"
 
+	// external library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"
 	"github.com/cosmos/ibc-go/modules/core/exported"

@@ -1,10 +1,13 @@
 package keeper_test
 
 import (
+	// standard library imports
 	"fmt"
 
+	// external library imports
 	"github.com/cosmos/ibc-go/testing/simapp"
 
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/ibc-go/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"

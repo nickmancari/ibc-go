@@ -1,10 +1,13 @@
 package keeper
 
 import (
+	// standard library imports
 	"encoding/hex"
 
+	// external library imports
 	"github.com/armon/go-metrics"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

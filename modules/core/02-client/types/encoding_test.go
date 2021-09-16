@@ -1,6 +1,7 @@
 package types_test
 
 import (
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 	ibctmtypes "github.com/cosmos/ibc-go/modules/light-clients/07-tendermint/types"
 )

@@ -1,8 +1,10 @@
 package simulation
 
 import (
+	// standard library imports
 	"math/rand"
 
+	// ibc-go library imports
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/ibc-go/modules/core/03-connection/types"
 )

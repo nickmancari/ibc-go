@@ -1,6 +1,7 @@
 package types
 
 import (
+	// ibc-go library imports
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	"github.com/cosmos/ibc-go/modules/core/exported"

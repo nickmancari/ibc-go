@@ -1,11 +1,14 @@
 package keeper
 
 import (
+	// standard library imports
 	"context"
 
+	// external library imports
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

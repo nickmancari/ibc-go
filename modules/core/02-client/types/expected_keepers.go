@@ -1,8 +1,10 @@
 package types
 
 import (
+	// standard library imports
 	"time"
 
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"

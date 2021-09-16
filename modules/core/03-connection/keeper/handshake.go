@@ -1,10 +1,13 @@
 package keeper
 
 import (
+	// standard library imports
 	"bytes"
 
+	// external library imports
 	"github.com/gogo/protobuf/proto"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

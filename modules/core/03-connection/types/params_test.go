@@ -1,8 +1,10 @@
 package types_test
 
 import (
+	// standard library imports
 	"testing"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/03-connection/types"
 	"github.com/stretchr/testify/require"
 )

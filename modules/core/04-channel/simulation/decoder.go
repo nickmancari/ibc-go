@@ -1,9 +1,11 @@
 package simulation
 
 import (
+	// standard library imports
 	"bytes"
 	"fmt"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/kv"

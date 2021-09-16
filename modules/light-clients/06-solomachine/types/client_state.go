@@ -1,10 +1,13 @@
 package types
 
 import (
+	// standard library imports
 	"reflect"
 
+	// external library imports
 	ics23 "github.com/confio/ics23/go"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

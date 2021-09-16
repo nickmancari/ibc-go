@@ -1,8 +1,8 @@
 package keeper
 
 import (
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
-
 	v100 "github.com/cosmos/ibc-go/modules/core/02-client/legacy/v100"
 )
 

@@ -1,12 +1,15 @@
 package types_test
 
 import (
+	// standard library imports
 	"fmt"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 	crypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/23-commitment/types"
 )
 

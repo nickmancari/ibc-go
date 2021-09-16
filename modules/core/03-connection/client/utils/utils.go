@@ -1,12 +1,15 @@
 package utils
 
 import (
+	// standard library imports
 	"context"
 	"fmt"
 	"io/ioutil"
 
+	// external library imports
 	"github.com/pkg/errors"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

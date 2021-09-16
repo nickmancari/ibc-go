@@ -1,10 +1,13 @@
 package keeper_test
 
 import (
+	// standard library imports
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/suite"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/04-channel/types"
 	ibctesting "github.com/cosmos/ibc-go/testing"
 )

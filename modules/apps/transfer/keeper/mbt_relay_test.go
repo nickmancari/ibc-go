@@ -5,14 +5,17 @@ package keeper_test
 /// In case of any questions please don't hesitate to contact andrey@informal.systems.
 
 import (
+	// standard library imports
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"strconv"
 	"strings"
 
+	// external library imports
 	"github.com/tendermint/tendermint/crypto"
 
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/ibc-go/modules/apps/transfer/types"

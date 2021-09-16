@@ -1,13 +1,16 @@
 package cli
 
 import (
+	// standard library imports
 	"fmt"
 	"io/ioutil"
 	"strconv"
 
+	// external library imports
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
+	 // ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"

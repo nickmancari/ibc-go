@@ -1,10 +1,13 @@
 package types_test
 
 import (
+	// standard library imports
 	"time"
 
+	// external library imports
 	ics23 "github.com/confio/ics23/go"
 
+	// ibc-go library imports
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	channeltypes "github.com/cosmos/ibc-go/modules/core/04-channel/types"
 	commitmenttypes "github.com/cosmos/ibc-go/modules/core/23-commitment/types"

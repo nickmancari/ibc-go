@@ -1,15 +1,18 @@
 package types_test
 
 import (
+	// standard library imports
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/suite"
+	dbm "github.com/tendermint/tm-db"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/store/iavl"
 	"github.com/cosmos/cosmos-sdk/store/rootmulti"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 
-	dbm "github.com/tendermint/tm-db"
 )
 
 type MerkleTestSuite struct {

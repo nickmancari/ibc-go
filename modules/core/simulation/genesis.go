@@ -3,10 +3,12 @@ package simulation
 // DONTCOVER
 
 import (
+	// standard library imports
 	"encoding/json"
 	"fmt"
 	"math/rand"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/types/module"
 	clientsims "github.com/cosmos/ibc-go/modules/core/02-client/simulation"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"

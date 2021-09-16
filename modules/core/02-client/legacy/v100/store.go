@@ -1,15 +1,16 @@
 package v100
 
 import (
+	// standard library imports
 	"fmt"
 	"strings"
 
+	// lbc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"

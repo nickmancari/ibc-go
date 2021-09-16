@@ -1,11 +1,14 @@
 package types
 
 import (
+	// standard library imports
 	"fmt"
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"

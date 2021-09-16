@@ -1,11 +1,14 @@
 package v100_test
 
 import (
+	// standard library imports
 	"testing"
 	"time"
 
+	// external library imports
 	"github.com/stretchr/testify/suite"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/02-client/legacy/v100"
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"

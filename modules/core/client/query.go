@@ -1,10 +1,13 @@
 package client
 
 import (
+	// standard library imports
 	"fmt"
 
+	// external library imports
 	abci "github.com/tendermint/tendermint/abci/types"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"

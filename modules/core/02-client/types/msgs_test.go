@@ -1,12 +1,15 @@
 package types_test
 
 import (
+	// standard library imports
 	"testing"
 	"time"
 
+	// external library imports
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 	commitmenttypes "github.com/cosmos/ibc-go/modules/core/23-commitment/types"
 	"github.com/cosmos/ibc-go/modules/core/exported"

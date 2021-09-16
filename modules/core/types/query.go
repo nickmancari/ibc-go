@@ -1,8 +1,10 @@
 package types
 
 import (
+	// external library imports
 	"github.com/gogo/protobuf/grpc"
 
+	// ibc-go library imports
 	client "github.com/cosmos/ibc-go/modules/core/02-client"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	connection "github.com/cosmos/ibc-go/modules/core/03-connection"

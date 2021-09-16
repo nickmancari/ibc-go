@@ -1,12 +1,15 @@
 package simulation_test
 
 import (
+	// standard library imports
 	"encoding/json"
 	"math/rand"
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/types/module"

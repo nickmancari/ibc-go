@@ -1,8 +1,10 @@
 package types
 
 import (
+	// standard library imports
 	"fmt"
 
+	// ibc-go library imports
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 )
 

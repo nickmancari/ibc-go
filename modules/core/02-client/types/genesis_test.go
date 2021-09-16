@@ -1,10 +1,13 @@
 package types_test
 
 import (
+	// standard library imports
 	"time"
 
+	// external library imports
 	tmtypes "github.com/tendermint/tendermint/types"
 
+	// ibc-go library imports
 	client "github.com/cosmos/ibc-go/modules/core/02-client"
 	"github.com/cosmos/ibc-go/modules/core/02-client/types"
 	commitmenttypes "github.com/cosmos/ibc-go/modules/core/23-commitment/types"

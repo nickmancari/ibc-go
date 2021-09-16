@@ -1,12 +1,14 @@
 package types
 
 import (
+	// standard library imports
 	"fmt"
 	"math/big"
 	"regexp"
 	"strconv"
 	"strings"
 
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/ibc-go/modules/core/exported"

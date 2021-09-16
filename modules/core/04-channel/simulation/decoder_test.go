@@ -1,11 +1,14 @@
 package simulation_test
 
 import (
+	// standard library imports
 	"fmt"
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/kv"
 	"github.com/cosmos/ibc-go/modules/core/04-channel/simulation"

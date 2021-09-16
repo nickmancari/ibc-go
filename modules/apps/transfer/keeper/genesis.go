@@ -1,8 +1,10 @@
 package keeper
 
 import (
+	// standard library imports
 	"fmt"
-
+	
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/ibc-go/modules/apps/transfer/types"
 )

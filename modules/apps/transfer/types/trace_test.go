@@ -1,8 +1,10 @@
 package types
 
 import (
+	// standard library imports
 	"testing"
-
+	
+	// external library imports
 	"github.com/stretchr/testify/require"
 )
 

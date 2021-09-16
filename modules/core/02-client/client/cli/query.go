@@ -1,11 +1,14 @@
 package cli
 
 import (
+	// standard library imports
 	"errors"
 	"fmt"
 
+	// external library imports
 	"github.com/spf13/cobra"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/version"

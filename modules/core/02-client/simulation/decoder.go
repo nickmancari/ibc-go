@@ -1,9 +1,11 @@
 package simulation
 
 import (
+	// standard library imports
 	"bytes"
 	"fmt"
 
+	// ibc-go library imports
 	"github.com/cosmos/cosmos-sdk/types/kv"
 	"github.com/cosmos/ibc-go/modules/core/02-client/keeper"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"

@@ -1,11 +1,14 @@
 package host_test
 
 import (
+	// standard library imports
 	"math"
 	"testing"
 
+	// external library imports
 	"github.com/stretchr/testify/require"
 
+	// ibc-go library imports
 	connectiontypes "github.com/cosmos/ibc-go/modules/core/03-connection/types"
 	host "github.com/cosmos/ibc-go/modules/core/24-host"
 )

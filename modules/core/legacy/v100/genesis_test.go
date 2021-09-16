@@ -1,14 +1,17 @@
 package v100_test
 
 import (
+	// standard library imports
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
+	// external library imports
 	"github.com/stretchr/testify/suite"
 	tmtypes "github.com/tendermint/tendermint/types"
 
+	// ibc-go library imports
+	"github.com/cosmos/cosmos-sdk/client"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 	ibcclient "github.com/cosmos/ibc-go/modules/core/02-client"
 	clientv100 "github.com/cosmos/ibc-go/modules/core/02-client/legacy/v100"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"

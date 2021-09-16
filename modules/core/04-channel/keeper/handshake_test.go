@@ -1,8 +1,10 @@
 package keeper_test
 
 import (
+	// standard library imports
 	"fmt"
 
+	// ibc-go library imports
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	connectiontypes "github.com/cosmos/ibc-go/modules/core/03-connection/types"

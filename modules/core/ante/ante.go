@@ -1,6 +1,7 @@
 package ante
 
 import (
+	// ibc-go library imports
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	clienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	channelkeeper "github.com/cosmos/ibc-go/modules/core/04-channel/keeper"

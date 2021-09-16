@@ -1,12 +1,14 @@
 package transfer
 
 import (
+	// standard library imports
 	"context"
 	"encoding/json"
 	"fmt"
 	"math"
 	"math/rand"
 
+	// external library imports
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
@@ -19,7 +21,8 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
-
+	
+	// ibc-go library imports
 	"github.com/cosmos/ibc-go/modules/apps/transfer/client/cli"
 	"github.com/cosmos/ibc-go/modules/apps/transfer/keeper"
 	"github.com/cosmos/ibc-go/modules/apps/transfer/simulation"
